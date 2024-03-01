@@ -8,6 +8,8 @@ This is a Pong game implemented in RISC-V assembly language using the RARS simul
 #Inspiration taken from a MIPS assembly version done by: https://github.com/AndrewHamm/MIPS-Pong for the 
 #MARS emulator
 
+#The official repository of the RARS emulator can be found in: https://github.com/TheThirdOne/rars
+
 # To run the project:
 # 1) In the upper bar go to Run->Assemble (f3)
 # 2) In the upper bar go to Tools->Bitmap Display
