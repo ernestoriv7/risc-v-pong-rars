@@ -23,3 +23,5 @@ This is a Pong game implemented in RISC-V assembly language using the RARS simul
 # 4) In the upper bar go to Tools->Keyboard and Display MMIO Simulator and press connect to MIPS
 # 5) In the upper bar go to Run->Go (f5)
 # 6) Click on the lower window of the Keyboard and Display simulator to produce inputs
+
+#Player movement is w and s for the left player and o and l for the right player.
