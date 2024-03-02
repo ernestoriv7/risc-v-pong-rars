@@ -21,6 +21,8 @@
 # 5) In the upper bar go to Run->Go (f5)
 # 6) Click on the lower window of the Keyboard and Display simulator to produce inputs
 
+#Player movement is w and s for the left player and o and l for the right player.
+
 #FOR THE STUDENTS: Internal labels of a function starts with a .
 
 # Here I define the constants that will be used along the code
