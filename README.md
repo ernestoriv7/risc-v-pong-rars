@@ -1,27 +1,51 @@
-# risc-v-pong-rars
-This is a Pong game implemented in RISC-V assembly language using the RARS simulator.
 
-#All rights reserved
-#Copyright belongs to Ernesto Rivera
-#You can use this code freely in your project(s) as long as credit is given :)
+![Start Screen](front.jpeg)
+![Gameplay](gameplay.png)
 
-#Inspiration taken from a MIPS assembly version done by: https://github.com/AndrewHamm/MIPS-Pong for the 
-#MARS emulator
+## ✨ Overview
+Welcome to **RISC-V Pong**, a retro-inspired game built entirely in **RISC-V Assembly** using the **RARS simulator**. This project showcases low-level programming concepts like memory-mapped graphics, input handling, and game logic — all without high-level abstractions! 🚀
 
-#The official repository of the RARS emulator can be found in: https://github.com/TheThirdOne/rars
+## 🌟 Features
+- 🕹️ **Two-player mode**: Press `1` or `2` to start the game.
+- 🖼️ **Bitmap Display**: Uses RARS Bitmap Display tool for rendering graphics.
+- ⚡ **Pure Assembly**: No external libraries, just raw RISC-V instructions.
+- 🎯 **Dynamic Gameplay**: Ball movement, collision detection, and paddle control implemented at the instruction level.
 
-# To run the project:
-# 1) In the upper bar go to Run->Assemble (f3)
-# 2) In the upper bar go to Tools->Bitmap Display
-# 3) Configure the following settings in in the Bitmap Display:
-	# a) Unit Width: 8
-	# b) Unit Height: 8
-	# c) Display Width: 512
-	# d) Display Height: 256
-	# e) Base Address: gp
-	# f) Press connect to program 
-# 4) In the upper bar go to Tools->Keyboard and Display MMIO Simulator and press connect to MIPS
-# 5) In the upper bar go to Run->Go (f5)
-# 6) Click on the lower window of the Keyboard and Display simulator to produce inputs
+## 🛠️ Requirements
+- ✅ **RARS**: Download from [RARS GitHub](https://github.com/TheThirdOne/rars).
+- ✅ Enable **Bitmap Display** in RARS:
+  - 🔳 Unit Width: `8`
+  - 🔳 Unit Height: `8`
+  - 📐 Display Width: `512`
+  - 📐 Display Height: `256`
+  - 🗂️ Base Address: `0x10008000 (gp)`
 
-#Player movement is w and s for the left player and o and l for the right player.
+## 🚀 How to Run
+1. 📥 Clone the repository:
+   ```bash
+   git clone https://github.com/ernestoriv7/risc-v-pong-rars.git
+   ```
+2. 🖥️ Open the `.asm` file in **RARS**.
+3. 🖼️ Enable **Bitmap Display** and set the parameters as shown above.
+4. ▶️ Assemble and run the program.
+5. 🎉 Enjoy Pong in RISC-V assembly!
+
+## 🎮 Controls
+- 👤 **Player 1**: `W` (up), `S` (down)
+- 👤 **Player 2**: `↑` (up), `↓` (down)
+
+## 🖼️ Screenshots
+### 🏁 Start Screen
+![Start Screen](front.jpeg)
+
+### 🏓 Gameplay
+![Gameplay](gameplay.png)
+
+## 💡 Why This Project?
+This game is a practical example for:
+- 📚 Learning **RISC-V architecture**.
+- 🎨 Understanding **low-level graphics programming**.
+- 🕹️ Exploring **game logic in assembly**.
+
+## 📜 License
+MIT License. Feel free to use, modify, and share. ✅
